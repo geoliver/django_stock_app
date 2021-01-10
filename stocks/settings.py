@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '(d_qx77a1!*@6q8)bcw$51p57)$pp4tcgmn96*8583(6xp9avg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['grantoliver.net','www.grantoliver.net']
 
 
 # Application definition
